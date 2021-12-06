@@ -33,9 +33,9 @@ transform: translateX(0px) translateY(400px);
 }
 .move-to{  width: 100px;
   height: 100px;
-  background: red;
+  background: pink;
   animation-name: move-to;
-  animation-duration: 5s;
+  animation-duration: 10s;
 }
 
 @keyframes move-to
