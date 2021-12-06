@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+.move-box{
+  width: 100px;
+  height: 100px;
+  background: #491ED3;
+  animation-name: move-box;
+  animation-duration: 5s;
+
+}
+
+
+
+
+@keyframes move-box
+ {
+  0%{
+    transform: translateX(0px) translateY(0px);
+  }
+25%{
+  transform: translateX(400px)translateY(0px);
+}
+ 50%{
+  transform: translateX(400px) translateY(400px);
+}
+
+75%{
+transform: translateX(0px) translateY(400px);
+}
+100%{ transform: translateX(0px) translateY(0px);
+}
+
+}
+.move-to{  width: 100px;
+  height: 100px;
+  background: red;
+  animation-name: move-to;
+  animation-duration: 5s;
+}
+
+@keyframes move-to
+ {
+  0%{
+    transform: translateX(0px) translateY(0px);
+  }
+25%{
+  transform: translateX(400px)translateY(0px);
+}
+ 50%{
+  transform: translateX(400px) translateY(400px);
+}
+
+75%{
+transform: translateX(0px) translateY(400px);
+}
+100%{
+   transform: translateX(0px) translateY(0px);
+}
